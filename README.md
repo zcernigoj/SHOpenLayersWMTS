@@ -10,6 +10,10 @@ To use this example, you need to follow these steps:
 4. run `npm run start` in the terminal
 5. open `http://localhost:1234/` in the browser
 
+If everything went ok, it should look like this:
+
+![Example](example.png)
+
 ## Used resources (probably some missing)
 Sorted by relevance.
 
