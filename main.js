@@ -22,7 +22,6 @@ for (let z = 0; z < 14; ++z) {
 class shWMTSClass extends WMTS {
   constructor(options) {
     super(options);
-    console.log('shWMTSClass', {options});
     const { evalscript, time } = options;
     this.evalscript = evalscript;
     this.time = time;
