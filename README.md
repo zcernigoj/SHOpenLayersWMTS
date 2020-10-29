@@ -33,4 +33,5 @@ Sorted by relevance.
 
 ### Sentinel hub
 - https://www.sentinel-hub.com/develop/api/ogc/standard-parameters/wmts/
+- https://www.sentinel-hub.com/develop/api/ogc/custom-parameters/
 - https://apps.sentinel-hub.com/dashboard/#/configurations/
