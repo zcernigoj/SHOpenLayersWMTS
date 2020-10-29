@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WMTS</title>
+  <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+  <script src="https://unpkg.com/elm-pep"></script>
+  <style>
+    .map {
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map" class="map"></div>
+
+  <br />
+
+  <div class="tools">
+    <div>
+      from: <input type="date" name="fromDate" id="fromDate">
+      to: <input type="date" name="toDate" id="toDate">
+      <button id="changeDatesBtn">update dates</button>
+    </div>
+
+    <br />
+    
+    <div>
+      <textarea id="scriptArea" cols="60" rows="20"></textarea>
+      <br />
+      <button id="changeEvalBtn">update evalscript</button>
+      <br />
+      example code:
+      <pre>
+        //VERSION=3
+        function setup() {
+        return {
+        input: ["B01","B02","B03", "dataMask"],
+        output: { bands: 4 }
+        };
+        }
+        
+        function evaluatePixel(sample) {
+        return [2.5 * sample.B01,2.5 * sample.B02,2.5 * sample.B03, sample.dataMask ];
+        }
+      </pre>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
