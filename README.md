@@ -27,8 +27,8 @@ Sorted by relevance.
 - https://openlayers.org/en/latest/apidoc/module-ol_source_WMTS-WMTS.html
 - https://openlayers.org/en/latest/examples/reusable-source.html
 - https://openlayers.org/en/latest/examples/wmts.html
-- https://openlayers.org/en/latest/examples/wms-time.html
 - https://gis.stackexchange.com/questions/299554/openlayers-refresh-wmts-tiles-when-underlying-data-changes
+- https://openlayers.org/en/latest/examples/wms-time.html
 - https://openlayers.org/en/latest/apidoc/module-ol_layer_Tile-TileLayer.html
 
 ### Sentinel hub
