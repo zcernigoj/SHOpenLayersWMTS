@@ -8,7 +8,7 @@ To use this example, you need to follow these steps:
 2. run `npm install`
 3. open `main.js` and:
     - change the value of `MY_INSTANCE_ID` with your own Sentinel hub instance id
-    - change the value of `MY_LAYER_UD` with the id of one layer in that Sentinel hub instance
+    - change the value of `MY_LAYER_ID` with the id of one layer in that Sentinel hub instance
 4. run `npm run start` in the terminal
 5. open `http://localhost:1234/` in the browser
 
