@@ -20,7 +20,7 @@ If everything went ok, it should look like this:
 
 Extended `WMTS` class, so that the `time` and `evalscript` parameters are set to the url for each tile.
 
-## Used resources (probably some missing)
+## Resources (probably some missing)
 Sorted by relevance.
 
 ### OpenLayers
