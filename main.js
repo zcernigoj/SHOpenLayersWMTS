@@ -50,10 +50,11 @@ class shWMTSClass extends WMTS {
 }
 
 const MY_INSTANCE_ID = '<MY-INSTANCE-ID>';
+const MY_LAYER_ID = '<MY-LAYER-ID>';
 const shWMTSconfig = new shWMTSClass({
   attributions: 'Sentinel hub',
   url: 'https://services.sentinel-hub.com/ogc/wmts/' + MY_INSTANCE_ID,
-  layer: 'TRUE-COLOR',
+  layer: MY_LAYER_ID,
   matrixSet: 'PopularWebMercator256',
   format: 'image/png',
   projection: projection,
