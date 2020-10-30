@@ -40,12 +40,10 @@ class shWMTSClass extends WMTS {
 
   setEvalscript(evalscript){
     this.evalscript = evalscript;
-    this.refresh();
   }
 
   setTime(time) {
     this.evalscript = time;
-    this.refresh();
   }
 }
 
@@ -85,6 +83,7 @@ document.getElementById("changeEvalBtn").onclick = function () {
   console.log('changeEvalBtn pressed');
   const newEvalScript = document.getElementById("scriptArea").value;
   shWMTSconfig.setEvalscript(newEvalScript);
+  shWMTSconfig.refresh();
 }
 
 document.getElementById("changeDatesBtn").onclick = function () {
@@ -103,4 +102,5 @@ document.getElementById("changeDatesBtn").onclick = function () {
   }
 
   shWMTSconfig.setTime(newFromDate + '/' + newToDate);
+  shWMTSconfig.refresh();
 }
