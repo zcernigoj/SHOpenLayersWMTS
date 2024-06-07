@@ -43,7 +43,7 @@ class shWMTSClass extends WMTS {
   }
 
   setTime(time) {
-    this.evalscript = time;
+    this.time = time;
   }
 }
 
